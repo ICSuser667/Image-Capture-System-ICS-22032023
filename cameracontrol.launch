@@ -1,0 +1,6 @@
+<launch>
+ <node pkg="cameracontrol" type="gui.py" name = "gui_node" output="screen"></node>
+ <node pkg="cameracontrol" type="main.py" name = "main_node" output="screen"></node>
+ <node pkg="cameracontrol" type="gps.py" name = "gps_node" output="screen"></node>
+ <node pkg="cameracontrol" type="camera.py" name = "camera_node" output="screen"></node>
+</launch>
